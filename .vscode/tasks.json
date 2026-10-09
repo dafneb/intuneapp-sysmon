@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build IntuneWin file",
+            "type": "shell",
+            "command": "${workspaceFolder}/IntuneWinAppUtil.exe -c ${workspaceFolder}/source -s Install.ps1 -o ${workspaceFolder}/output -q"
+        }
+    ]
+}
